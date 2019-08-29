@@ -111,39 +111,6 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-//                JSONObject mainObj=new JSONObject(result);
-//
-//                JSONArray contactsArr=mainObj.getJSONArray("contacts");
-//
-//                List<Contacts> contactsList=new ArrayList<>();
-//
-//
-//                for(int i=0;i<contactsArr.length();i++){
-//
-//                    Contacts contact=new Contacts();
-//
-//
-//                    JSONObject obj=contactsArr.getJSONObject(i);
-//
-//                    contact.set_id(obj.getString("id"));
-//
-//                    contact.set_name(obj.getString("name"));
-//                    contact.set_email(obj.getString("email"));
-//                    contact.set_address(obj.getString("address"));
-//                    contact.set_gender(obj.getString("gender"));
-//
-////                    String name=obj.getString("name");
-////                    Toast.makeText(MainActivity.this, name, Toast.LENGTH_SHORT).show();
-//
-//                    JSONObject objPhone=obj.getJSONObject("phone");
-//
-//                    contact.set_mobile(objPhone.getString("mobile"));
-//                    contact.set_home(objPhone.getString("home"));
-//                    contact.set_office(objPhone.getString("office"));
-//
-//                    contactsList.add(contact);
-//
-//                }
 
 
 //
